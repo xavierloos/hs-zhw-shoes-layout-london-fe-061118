@@ -62,22 +62,14 @@
 }
 .contact{
   grid-area: contact;
-  justify-self: center;
-
-}
+  }
 .correspondence{
   grid-area: correspondence;
-  justify-self: center;
-
-}
+  }
 .links{
   grid-area: links;
-  justify-self: center;
-
-}
+  }
 .follow{
   grid-area: follow;
-  justify-self: center;
-
-}
+  }
 
