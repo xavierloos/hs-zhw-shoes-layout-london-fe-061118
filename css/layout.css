@@ -62,6 +62,8 @@
 }
 .contact{
   grid-area: contact;
+  justify-self: center;
+
 }
 .correspondence{
   grid-area: correspondence;
