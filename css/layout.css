@@ -67,6 +67,8 @@
 }
 .correspondence{
   grid-area: correspondence;
+  justify-self: center;
+
 }
 .links{
   grid-area: links;
