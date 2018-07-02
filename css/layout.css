@@ -58,7 +58,7 @@
   grid-template-areas:
   "contact links follow"
   "correspondence links follow"
-  
+  padding-left: 20px;
   
 }
 .contact{
