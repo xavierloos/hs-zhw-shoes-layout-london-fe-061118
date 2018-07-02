@@ -72,8 +72,12 @@
 }
 .links{
   grid-area: links;
+  justify-self: center;
+
 }
 .follow{
   grid-area: follow;
+  justify-self: center;
+
 }
 
