@@ -18,10 +18,56 @@
   line-height: 0;
 }
 
+
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
-
+.wrapper-brands {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100%, auto);
+  grid-gap: 10px;
+  grid-template-areas: 
+  "summer summer archive"
+  "lady skaters heels"
+}
+.summer-grass{
+  grid-area: summer;
+}
+.shoe-archive{
+  grid-area: archive;
+  }
+.lady-bugs{
+  grid-area: lady;
+}
+.skaters{
+  grid-area: skaters;
+}
+.bluestar-heels{
+  grid-area: heels;
+}
+.wrapperdetails{
+  display: inline-block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100%, auto);
+  grid-gap: 10px;
+  grid-template-areas:
+  "contact links follow"
+  "correspondence links follow"
+  
+}
+.contact{
+  grid-area: contact;
+}
+.correspondence{
+  grid-area: correspondence;
+}
+.links{
+  grid-area: links;
+}
+.follow{
+  grid-area: follow;
+}
 

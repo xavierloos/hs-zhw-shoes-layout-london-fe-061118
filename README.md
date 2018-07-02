@@ -1,5 +1,4 @@
 # ZHW Shoes Layout
-
 ## Objectives
 
 1. Develop HTML and CSS competency
